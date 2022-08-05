@@ -1,5 +1,7 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "ready4-dev"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 # Language settings
 contentDir = "content/en"
@@ -60,8 +62,8 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "readyforwhatsnext"
+description = "An open source health economic model of young people's mental health"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -98,8 +100,8 @@ time_format_blog = "2006.01.02"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "The Docsy Authors"
-privacy_policy = "https://policies.google.com/privacy"
+copyright = "Orygen"
+privacy_policy = "https://policies.google.com/privacy" # Change this
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -123,9 +125,9 @@ version = "0.0"
 url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/google/docsy-example"
+github_repo = "https://github.com/matthewphamilton/ready4-dev"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://github.com/ready4-dev"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -197,7 +199,7 @@ enable = false
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
-  url = "https://github.com/google/docsy"
+  url = "https://github.com/ready4-dev"
   icon = "fab fa-github"
   desc = "Development takes place here!"
 [[params.links.developer]]
@@ -212,7 +214,6 @@ enable = false
   desc = "Discuss development issues around the project"
 
 # hugo module configuration
-
 [module]
   # uncomment line below for temporary local development of module
   # replacements = "github.com/google/docsy -> ../../docsy"
